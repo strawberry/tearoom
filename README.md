@@ -7,6 +7,13 @@ Tea room is an EmberJS application used to determine who's tea round it is.
 3. Run ember server
 4. Look [here](http://localhost:4200)
 
-##Work
+##Working with Tea Room
 * All of the main EmberJS code is stored under the app folder.
 * All styles go into the styles folder inside app and are then linked to inside the index.html.
+
+##Todo list
+* Style application
+* Improve HTML
+* Implement local storage and brewer adding
+* Add a reset button so the page doesn't need refreshing
+* Add preferences for each brewer
