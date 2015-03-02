@@ -1,0 +1,12 @@
+import Ember from 'ember';
+
+var BrewerItemComponent = Ember.Component.extend({
+    actions: {
+	toggleRound: function(){
+	    console.log(this.get('model'));
+	    alert("Toggle bitch");
+	}
+    }
+});
+
+export default BrewerItemComponent;

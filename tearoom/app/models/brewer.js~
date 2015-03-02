@@ -1,0 +1,8 @@
+import DS from 'ember-data';
+
+var BrewerModel = DS.Model.extend({
+    name: DS.attr('string'),
+    inRound: BS.attr('boolean')
+});
+
+export default BrewerModel;

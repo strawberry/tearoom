@@ -1,3 +1,15 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<h1 id="title">Welcome to the Tea Room</h1>
 
-{{outlet}}
+<ul>
+{{#each brewer in model}}
+	<li>
+		{{brewer-item model=brewer}}
+	</li>
+{{/each}}
+</ul>
+
+{{#if brewerSelected}}
+	<h1>Thanks {{selectedBrewer.name}}</h1>
+{{else}}
+	<button {{action 'selectBrewer'}}>Who's round is it?!</button>
+{{/if}}
