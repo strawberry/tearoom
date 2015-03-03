@@ -16,5 +16,4 @@ Tea room is an EmberJS application used to determine who's tea round it is.
 ##Todo list
 * Style application
 * Improve HTML
-* Add a reset button so the page doesn't need refreshing
 * Add preferences for each brewer
