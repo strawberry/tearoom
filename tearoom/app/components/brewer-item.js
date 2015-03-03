@@ -6,6 +6,10 @@ var BrewerItemComponent = Ember.Component.extend({
 	    var brewer = this.get('model');
 	    brewer.set('inRound', !brewer.get('inRound'));
 	    brewer.save();
+	},
+	deleteBrewer: function(){
+	    var brewer = this.get('model');
+	    brewer.destroyRecord();
 	}
     }
 });

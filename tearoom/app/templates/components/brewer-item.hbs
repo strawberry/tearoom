@@ -1,5 +1,5 @@
 {{#if model.inRound}}
-<a href="" {{action 'toggleRound'}}><h2>{{model.name}}</h2></a> 
+<a href="" {{action 'toggleRound'}}><h2>{{model.name}}</h2></a> <button {{action 'deleteBrewer'}}>Delete</button>
 {{else}}
-<a href="" {{action 'toggleRound'}}>{{model.name}}</a> 
+<a href="" {{action 'toggleRound'}}>{{model.name}}</a> <button {{action 'deleteBrewer'}}>Delete</button>
 {{/if}}
