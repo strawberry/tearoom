@@ -1,6 +1,7 @@
 import DS from 'ember-data';
 
-var ApplicationAdapter = DS.FixtureAdapter.extend({
+var ApplicationAdapter = DS.LSAdapter.extend({
+    namespace: 'tea-room'
 });
 
 export default ApplicationAdapter;

@@ -5,29 +5,29 @@ var BrewerModel = DS.Model.extend({
     inRound: DS.attr('boolean')
 });
 
-BrewerModel.reopenClass({
-    FIXTURES: [
-	{
-	    id: 1,
-	    name: "Ant",
-	    inRound: false
-	},
-	{
-	    id: 2,
-	    name: "Daz",
-	    inRound: false
-	},
-	{
-	    id: 3,
-	    name: "Matt Weldon",
-	    inRound: false
-	},
-	{
-	    id: 4,
-	    name: "Stu",
-	    inRound: false
-	}
-    ]
-});
+//BrewerModel.reopenClass({
+//  FIXTURES: [
+//	{
+//	    id: 1,
+//	    name: "Ant",
+//	    inRound: false
+//	},
+//	{
+//	    id: 2,
+//	    name: "Daz",
+//	    inRound: false
+//	},
+//	{
+//	    id: 3,
+//	    name: "Matt Weldon",
+//	    inRound: false
+//	},
+//	{
+//	    id: 4,
+//	    name: "Stu",
+//	    inRound: false
+//	}
+//  ]
+//});
 
 export default BrewerModel;
